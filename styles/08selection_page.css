@@ -1,0 +1,98 @@
+/* Selection Page only  */
+
+/* Header -----------------------------------------------------------*/
+.selectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sortPrice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.sort {
+  text-decoration: none;
+  color: #1D1C1C;
+  font-weight: bold;
+  border: none;
+}
+
+.sort:hover {
+  color: var(--accent-magenta);
+}
+
+.priceSelect {
+  background-color: #F6F2EF;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-left: 8px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: none;
+}
+
+.priceSelect:hover {
+  color: var(--accent-magenta);
+}
+
+.priceSelectItem {
+
+}
+
+.priceSelectItem:active, .priceSelectItem:hover{
+
+}
+/* Header -----------------------------------------------------------*/
+
+/* Selection Cards --------------------------------------------------*/
+
+.available {
+  padding: 8px;
+  color: ;
+  background-color: var(--accent-green);
+  color: #FFFFFF;
+  border-radius: 16px 0 0 16px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 20px;
+}
+
+.cardItem{
+  text-align: left;
+}
+
+.cardText{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTextBold {
+  font-weight: bold;
+}
+
+.cardTextLeft > p:nth-child(2) {
+  margin: 8px 0;
+}
+
+.buyBtn {
+  color: #FFFFFF;
+  background-color: var(--accent-magenta);
+  border-radius: 16px;
+  padding: 8px 32px;
+  text-decoration: none;
+  margin: 24px 0;
+  font-weight: bold;
+}
+
+.buyBtn:hover {
+  color: #1D1C1C;
+}

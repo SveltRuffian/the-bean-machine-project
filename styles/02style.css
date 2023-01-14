@@ -1,0 +1,21 @@
+/* main index.html stylings */
+
+section h2 {
+  font-weight: bold;
+}
+
+.about {
+  border-top: 2px solid var(--background-dark);
+  border-bottom: 2px solid var(--background-dark);
+  padding: 32px 0;
+
+
+}
+
+.about p {
+  padding: 16px 0 16px 0;
+}
+
+.about a {
+  color: var(--accent-magenta);
+}

@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+/*   width: 80%; */
+  white-space: nowrap;
+/*   flex-shrink: 4; */
+
+}
+
+.logo {
+
+  font-weight: bolder;
+  color: var(--accent-magenta);
+}
+
+/* #menuchk {
+  display: none;
+} */
+
+/* .burgerMenu{
+  display: none;
+} */
+
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-primary);
+  margin: 8px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color:  var(--accent-magenta);
+}
+
+.loginBtn{
+  color: var(--text-reversed);
+  background-color: var(--accent-magenta);
+  border-radius: 16px;
+  padding: 4px 16px;
+  text-transform: uppercase;
+}
+
+.loginBtn:hover {
+  color: var(--text-primary);
+}

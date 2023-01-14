@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px){
+
+  nav {
+    flex-direction: column;
+    height: 300px;
+    padding: 16px 0;
+  }
+
+  .logo{
+      font-size: 10vw;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    padding: 16px 0;
+    flex-basis: 250px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 4vw;
+    margin: 8px 0;
+  }
+
+}

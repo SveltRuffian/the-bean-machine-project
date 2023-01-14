@@ -1,0 +1,50 @@
+h1, h2 {
+ font-family: 'Nunito', sans-serif;
+}
+
+p, a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Add styles here */
+:root {
+  background-color: #FFFFFF;
+  --background-dark: #1D1C1C;
+  --card: #F6F2EF;
+  --accent-magenta: #FF5678;
+  --accent-green: #149770;
+  --text-primary: #1D1C1C;
+  --text-secondary: #787878;
+  --text-reversed: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+ color: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
